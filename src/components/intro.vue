@@ -19,45 +19,45 @@
 export default {
     name: "intro",
     data(){
-    return {
-      projects: [
-        {
-          name: "Britannia",
-          link: "aaaa"
-        },
-        {
-          name: "Dice Doge",
-          link: "bbbb"
-        },
-        {
-          name: "something here",
-          link: "cccc"
-        }
-      ]
+      return {
+        projects: [
+          {
+            name: "Britannia",
+            link: "aaaa"
+          },
+          {
+            name: "Dice Doge",
+            link: "bbbb"
+          },
+          {
+            name: "something here",
+            link: "cccc"
+          }
+        ]
+      }
     }
-  }
 }
 </script>
 <style lang="scss" scoped>
-#intro_div {
-  border-style: solid;
-}
+  #intro_div {
+    border-style: solid;
+  }
 
-.flex_container_outer {
-  display: flex;
-  flex-direction: row;
-  border-style: solid;
-}
+  .flex_container_outer {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+  }
 
-.flex_container_inner {
-  display: flex;
-  flex-direction: column;
-  border-style: solid;
-}
+  .flex_container_inner {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+  }
 
-.projects_list_item {
-  color:red;
-}
+  .projects_list_item {
+    color:red;
+  }
 
 </style>
 

@@ -2,16 +2,19 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <intro />
+    <br>
+    <skills />
   </div>
 </template>
 
 <script>
 import intro from './components/intro';
+import skills from './components/skills';
 
 export default {
   name: 'app',
   components: {
-    intro
+    intro, skills
   }
 }
 </script>

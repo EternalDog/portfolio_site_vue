@@ -1,0 +1,70 @@
+{
+    "web_dev":[
+       {
+          "name":"HTML5, CSS3, JS",
+          "desc":"desc",
+          "icon":""
+       },
+       {
+          "name":"Node.js",
+          "desc":"desc1",
+          "icon":""
+       },
+       {
+          "name":"Vue.js",
+          "desc":"desc2",
+          "icon":""
+       },
+       {
+          "name":"JQuery",
+          "desc":"desc3",
+          "icon":""
+       },
+       {
+          "name":"D3",
+          "desc":"desc5",
+          "icon":""
+       },
+       {
+          "name":"SASS",
+          "desc":"desc4",
+          "icon":""
+       }
+    ],
+    "soft_dev":[
+       {
+          "name":"JavaScript",
+          "desc":"JS desc here",
+          "icon":""
+       },
+       {
+          "name":"Java",
+          "desc":"java desc here",
+          "icon":""
+       },
+       {
+          "name":"Python",
+          "desc":"Python desc here",
+          "icon":""
+       },
+       {
+          "name":"C++",
+          "desc":"C++ desc here",
+          "icon":""
+       }
+    ],
+    "dbms":[
+       {
+          "name":"SQL",
+          "desc":"SQL desc here",
+          "icon":""
+       }
+    ],
+    "other":[
+       {
+          "name":"other item",
+          "desc":"other item desc here",
+          "icon":""
+       }
+    ]
+ }
