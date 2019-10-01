@@ -2,54 +2,67 @@
     "web_dev":[
        {
           "name":"HTML5, CSS3, JS",
-          "desc":"desc",
+          "desc":"I have pretty extensive experience going back at least 6 years, the time when I first started dabbling in Web Development. I started seriously getting into it back in 2015 when I began my Web Development BSC degree",
+          "exp": "9/10",
+          "desc2": "With around 6 years of experience I am pretty well versed with this technology, anything new here would be trivial to learn.",
           "icon":""
        },
        {
           "name":"Node.js",
-          "desc":"desc1",
+          "desc":"My experience with node is good, I first began using it around 2017 as a backend alternative to PHP. I am personally a big fan of node, as I enjoy writing in JS, and Node makes JS a far more powerful language.",
+          "exp": "8/10",
+          "desc2": "I am pretty good at using Node and have used it to great effect, I find new libraries and such pretty straightforward to learn",
           "icon":""
        },
        {
           "name":"Vue.js",
-          "desc":"desc2",
-          "icon":""
+          "desc":"I have decent experience with Vue, It is my framework of choice due to its light weight nature, a nice learning curve and a ton of really fascinating functionality. You may or may not have noticed, but this site was actually built using Vue.",
+          "exp": "7/10",
+          "desc2": "I would describe my experience with vue to be about intermediate, i have created multiple websites with it and im proficient enough with it to get things done.",
+          "icon": ""
        },
        {
           "name":"JQuery",
-          "desc":"desc3",
+          "desc":"JQuery is what I used to almost always include in my websites and web applications, and I still do from time to time when im creating something small. I like the added functionality and the simplification of certain tasks that JQuery brings with it.",
+          "exp": "8/10",
+          "desc2": "I am pretty experienced with JQuery, I generally find no issue using it for any task I have.",
           "icon":""
        },
        {
           "name":"D3",
-          "desc":"desc5",
-          "icon":""
-       },
-       {
-          "name":"SASS",
-          "desc":"desc4",
+          "desc":"D3 is an incredibly powerful library for JavaScript while also having a relatively straightforward learning curve. It was actually a big part of my thesis project, I used it to create a strategy game similar to the boardgame risk.",
+          "exp": "7/10",
+          "desc2": "I am proficient with D3, its a pretty straightforward piece of technology.",
           "icon":""
        }
     ],
     "soft_dev":[
        {
           "name":"JavaScript",
-          "desc":"JS desc here",
+          "desc":"Ive been using JS for a pretty long time, and it was the main programming language ive used when in University doing my degree. Ive mentioned it in the Web development section, but im adding it here as well, as it can be used for many things that arent neccesarily Web Dev related.",
+          "exp": "9/10",
+          "desc2": "I am very proficient in Vanilla JavaScript, and any new libraries or other such things are generally pretty easy for me to learn.",
           "icon":""
        },
        {
           "name":"Java",
-          "desc":"java desc here",
+          "desc":"Ive been writing in Java for most of my degree as well as during my internship, and ive reached a relatively decent level of knowledge, ive done Object Oriented Java programming and used technologies such as JavaFX to make GUIs as well as Sockets and RMI for web services.",
+          "exp": "7/10",
+          "desc2": "My experience with Java is pretty decent, after JavaScript its the first programming language ive learned. Im planning to learn Spring in the future to expand my skills.",
           "icon":""
        },
        {
           "name":"Python",
-          "desc":"Python desc here",
+          "desc":"Ive used Python for about two years for tasks such as security testing, back end development and big data management technologies like Spark",
+          "exp": "6/10",
+          "desc2": "I have not used Python as much as I have the previous two, however compared to them, I find Python to be rather easy and I would like to learn it more.",
           "icon":""
        },
        {
           "name":"C++",
-          "desc":"C++ desc here",
+          "desc":"Im pretty new to C++, as im just beginning to learn it, as it wasnt part of my degree, I plan on using EDX to do online courses and learn it.",
+          "exp": "3/10",
+          "desc2": "Im inexperienced with C++, however I think learning it further wont be too difficult, I find it to be somewhat similar to Java.",
           "icon":""
        }
     ],
@@ -57,6 +70,8 @@
        {
           "name":"SQL",
           "desc":"SQL desc here",
+          "exp": "7/10",
+          "desc2": "",
           "icon":""
        }
     ],
@@ -64,6 +79,8 @@
        {
           "name":"other item",
           "desc":"other item desc here",
+          "exp": "7/10",
+          "desc2": "",
           "icon":""
        }
     ]
