@@ -4,8 +4,8 @@
 
     <img alt="There should be a logo here" id="logo" src="../assets/logo.jpg">
 
-    <h2>Dominik Bahrynowski</h2>
-    <h3>Software Developer | Web Developer | Volunteer</h3>
+    <h2>Insert name here</h2>
+    <h3>insert subtitle here</h3>
 
 
     <div class="flex_container_inner" v-bind:key="projects.name" v-for="projects in projects">
