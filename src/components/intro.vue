@@ -2,7 +2,7 @@
   <div id="intro_div">
     <p>--- intro page ---</p>
 
-    <img alt="There should be a logo here" id="logo" src="../assets/logo.jpg">
+    <img alt="There should be a logo here" id="logo" src="../assets/dog_icons/placeholder_logo.jpg">
 
     <h2>Insert name here</h2>
     <h3>insert subtitle here</h3>
