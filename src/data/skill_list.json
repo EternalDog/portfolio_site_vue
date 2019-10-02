@@ -5,35 +5,35 @@
           "desc":"I have pretty extensive experience going back at least 6 years, the time when I first started dabbling in Web Development. I started seriously getting into it back in 2015 when I began my Web Development BSC degree",
           "exp": "9/10",
           "desc2": "With around 6 years of experience I am pretty well versed with this technology, anything new here would be trivial to learn.",
-          "icon":""
+          "icon":"dog7.png"
        },
        {
           "name":"Node.js",
           "desc":"My experience with node is good, I first began using it around 2017 as a backend alternative to PHP. I am personally a big fan of node, as I enjoy writing in JS, and Node makes JS a far more powerful language.",
           "exp": "8/10",
           "desc2": "I am pretty good at using Node and have used it to great effect, I find new libraries and such pretty straightforward to learn",
-          "icon":""
+          "icon":"../assets/dog_icons/dog6.png"
        },
        {
           "name":"Vue.js",
           "desc":"I have decent experience with Vue, It is my framework of choice due to its light weight nature, a nice learning curve and a ton of really fascinating functionality. You may or may not have noticed, but this site was actually built using Vue.",
           "exp": "7/10",
           "desc2": "I would describe my experience with vue to be about intermediate, i have created multiple websites with it and im proficient enough with it to get things done.",
-          "icon": ""
+          "icon":"../assets/dog_icons/dog5.png"
        },
        {
           "name":"JQuery",
           "desc":"JQuery is what I used to almost always include in my websites and web applications, and I still do from time to time when im creating something small. I like the added functionality and the simplification of certain tasks that JQuery brings with it.",
           "exp": "8/10",
           "desc2": "I am pretty experienced with JQuery, I generally find no issue using it for any task I have.",
-          "icon":""
+          "icon":"../assets/dog_icons/dog4.png"
        },
        {
           "name":"D3",
           "desc":"D3 is an incredibly powerful library for JavaScript while also having a relatively straightforward learning curve. It was actually a big part of my thesis project, I used it to create a strategy game similar to the boardgame risk.",
           "exp": "7/10",
           "desc2": "I am proficient with D3, its a pretty straightforward piece of technology.",
-          "icon":""
+          "icon":"../assets/dog_icons/dog3.png"
        }
     ],
     "soft_dev":[

@@ -12,6 +12,8 @@
         <div id="skills_selector_bottom_container">
             <div class="selectors" id="web_dev_selector" v-show="show_web_dev" >
                 <div v-bind:key="item.name" v-for="item in $options.skills.web_dev">
+                    <img src="@/assets/dog_icons/dog7.png"  alt="icon" class="technology_icon">
+                    <!-- <img v-bind:src="'~@/assets/dog_icons/' + item.icon"  alt="icon" class="technology_icon"> -->
                     <div class="selector_item" ><button v-bind:id=item.name v-on:click="technology_select(item)">{{item.name}}</button></div>
                 </div>
             </div>
@@ -33,6 +35,9 @@
                     <div class="selector_item" ><button v-bind:id=item.name v-on:click="technology_select(item)">{{item.name}}</button></div>
                 </div>
             </div>
+
+
+
         </div>
 
 
@@ -53,28 +58,28 @@ export default {
         }
     },
     methods: {
-        web_dev_display: function (event) {
+        web_dev_display: function () {
             this.current_selection = "web_dev";
             this.show_web_dev = true;
             this.show_soft_dev = false;
             this.show_dbms = false;
             this.show_other = false;
         },
-        soft_dev_display: function (event) {
+        soft_dev_display: function () {
             this.current_selection = "soft_dev";
             this.show_web_dev = false;
             this.show_soft_dev = true;
             this.show_dbms = false;
             this.show_other = false;
         },
-        dbms_display: function (event) {
+        dbms_display: function () {
             this.current_selection = "dbms";
             this.show_web_dev = false;
             this.show_soft_dev = false;
             this.show_dbms = true;
             this.show_other = false;
         },
-        other_display: function (event) {
+        other_display: function () {
             this.current_selection = "other";
             this.show_web_dev = false;
             this.show_soft_dev = false;
@@ -108,6 +113,12 @@ export default {
 
     .selector_item {
         padding: 10px
+    }
+
+    .technology_icon {
+        height: 50px;
+        width: 50px;
+
     }
 
 
