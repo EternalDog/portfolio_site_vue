@@ -1,0 +1,28 @@
+{
+    "exp":[
+        {
+            "name": "Web Development Bachelors degree",
+            "location": "Cork Institute of Technology",
+            "desc": "I did a 4 year degree in web development, as part of this course I learned how to use the various Web Development technologies, both front end and back end, as well as a bit of programming and database management.",
+            "start_date": "09/2015",
+            "end_date": "06/2015",
+            "duration": "4 years"
+        },
+        {
+            "name": "Software Engineer",
+            "location": "McAfee Cork",
+            "desc": "I worked at McAFee as a Software Engineer, on a team called 'Endpoint performance' and most of my work was relevant to QA testing new versions of the Anti Virus software on windows machines.",
+            "start_date": "01/2018",
+            "end_date": "09/2018",
+            "duration": "9 months"
+        },
+        {
+            "name": "Freelance Web Development",
+            "location": "Cork, Ireland",
+            "desc": "After finishing all my university work, I began doing some light freelance web development work, mostly for the purpose of ",
+            "start_date": "06/2019",
+            "end_date": "10/2018",
+            "duration": "4 months"
+        }
+    ]
+}

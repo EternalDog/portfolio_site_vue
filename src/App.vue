@@ -4,17 +4,21 @@
     <intro />
     <br>
     <skills />
+    <br>
+    <exp />
   </div>
 </template>
 
 <script>
 import intro from './components/intro';
 import skills from './components/skills';
+import exp from './components/exp';
+import self from './components/self';
 
 export default {
   name: 'app',
   components: {
-    intro, skills
+    intro, skills, exp, self
   }
 }
 </script>

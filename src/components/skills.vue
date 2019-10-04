@@ -10,15 +10,15 @@
         </div>
 
         <div id="skills_selector_bottom_container">
-            <div class="selectors" id="web_dev_selector" v-show="show_web_dev" >
+            <div class="selectors" id="web_dev_selector" v-show="show_web_dev">
                 <div v-bind:key="item.name" v-for="item in $options.skills.web_dev">
-                    <img src="@/assets/dog_icons/dog7.png"  alt="icon" class="technology_icon">
+                    <img :src="require(`@/assets/static/${item.icon}`)" alt="icon" class="technology_icon">
                     <!-- <img v-bind:src="'~@/assets/dog_icons/' + item.icon"  alt="icon" class="technology_icon"> -->
                     <div class="selector_item" ><button v-bind:id=item.name v-on:click="technology_select(item)">{{item.name}}</button></div>
                 </div>
             </div>
 
-            <div class="selectors" id="soft_dev_selector" v-show="show_soft_dev" > 
+            <div class="selectors" id="soft_dev_selector" v-show="show_soft_dev"> 
                 <div v-bind:key="item.name" v-for="item in $options.skills.soft_dev">
                     <div class="selector_item" ><button v-bind:id=item.name v-on:click="technology_select(item)">{{item.name}}</button></div>
                 </div>
@@ -36,7 +36,13 @@
                 </div>
             </div>
 
-
+            <div id="desc_container">
+                <h2 id="title"> haha dog </h2>
+                <div id="text_card">
+                    <p id="desc1"></p>
+                    <p id="desc2"></p>
+                </div>
+            </div>
 
         </div>
 
@@ -45,6 +51,17 @@
 </template>
 <script>
 import skill_list from '../data/skill_list.json'
+[
+    require('@/assets/dog_icons/dog1.png'),
+    require('@/assets/dog_icons/dog2.png'),
+    require('@/assets/dog_icons/dog3.png'),
+    require('@/assets/dog_icons/dog4.png'),
+    require('@/assets/dog_icons/dog5.png'),
+    require('@/assets/dog_icons/dog6.png'),
+    require('@/assets/dog_icons/dog7.png'),
+]
+
+
 export default {
     name: "skills",
     skills: skill_list,
