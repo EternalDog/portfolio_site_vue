@@ -8,8 +8,19 @@
     <h3>insert subtitle here</h3>
 
 
-    <div class="flex_container_inner" v-bind:key="projects.name" v-for="projects in projects">
-      <div class="projects_list_item" v-bind:id=projects.link ><p>{{projects.name}}</p></div>
+
+    <div id="card"> 
+      <div id="desc">
+        <h2>dog dog dog</h2>
+        <p>dog dog dog</p>
+      </div>
+
+      <div id="selectors">
+        <div v-bind:key="projects.name" v-for="projects in projects">
+          <div class="projects_list_item" v-bind:id=projects.name v-on:click="project_select(projects.name)" ><p>{{projects.name}}</p></div>
+        </div>
+      </div>
+
     </div>
 
 
@@ -35,12 +46,26 @@ export default {
           }
         ]
       }
+    },
+    methods: { 
+      project_select: function (dog) {
+            console.log(dog);
+            // document.getElementById('title').innerHTML = dog.name;
+            // document.getElementById('desc1').innerHTML = dog.desc;
+            // document.getElementById('desc2').innerHTML = dog.desc2;
+      }
     }
 }
 </script>
 <style lang="scss" scoped>
   #intro_div {
     border-style: solid;
+  }
+  
+  #card {
+    display: flex;
+    flex-direction: row;
+
   }
 
   .flex_container_outer {
@@ -49,10 +74,17 @@ export default {
     border-style: solid;
   }
 
-  .flex_container_inner {
-    display: flex;
-    flex-direction: column;
+  #selectors {
+    //display: flex;
+    //flex-direction: column;
+    //border-style: solid;
     border-style: solid;
+    border-color: blue;
+  }
+
+  .desc {
+    border-style: solid;
+    border-color: red;
   }
 
   .projects_list_item {
