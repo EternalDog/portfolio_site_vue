@@ -1,6 +1,6 @@
 <template>
     <div id="exp_div">
-        haha dog
+        exp div
  
     </div>
 </template>

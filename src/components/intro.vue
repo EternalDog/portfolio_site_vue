@@ -8,54 +8,29 @@
     <h3>insert subtitle here</h3>
 
 
-
-    <div id="card"> 
-      <div id="desc">
-        <h2>dog dog dog</h2>
-        <p>dog dog dog</p>
-      </div>
-
-      <div id="selectors">
-        <div v-bind:key="projects.name" v-for="projects in projects">
-          <div class="projects_list_item" v-bind:id=projects.name v-on:click="project_select(projects.name)" ><p>{{projects.name}}</p></div>
-        </div>
-      </div>
-
-    </div>
-
-
   </div>
 </template>
 <script>
+import project_list from '../data/projects.json';
+
 export default {
     name: "intro",
+    projects: project_list,
     data(){
       return {
-        projects: [
-          {
-            name: "Britannia",
-            link: "aaaa"
-          },
-          {
-            name: "Dice Doge",
-            link: "bbbb"
-          },
-          {
-            name: "something here",
-            link: "cccc"
-          }
-        ]
+        current_selection: ""
       }
     },
     methods: { 
-      project_select: function (dog) {
-            console.log(dog);
-            // document.getElementById('title').innerHTML = dog.name;
-            // document.getElementById('desc1').innerHTML = dog.desc;
-            // document.getElementById('desc2').innerHTML = dog.desc2;
+      test: function() {
+        console.log(projects);
       }
+
+
     }
 }
+
+
 </script>
 <style lang="scss" scoped>
   #intro_div {

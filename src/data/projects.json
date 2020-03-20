@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Britannia",
+        "link": "https://github.com/EternalDog/fyp",
+        "desc": "brit desc long",
+        "desc_short": "A web based multiplayer strategy game",
+        "img": "dog1.png"
+    },
+    {
+        "name": "Portfolio site",
+        "link": "nay",
+        "desc": "",
+        "desc_short": "",
+        "img": "dog2.png"
+    },
+    {
+        "name": "proj3",
+        "link": "",
+        "desc": "",
+        "desc_short": "",
+        "img": "dog3.png"
+    }
+]

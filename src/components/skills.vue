@@ -20,6 +20,7 @@
 
                 <div class="selectors" id="soft_dev_selector" v-show="show_soft_dev"> 
                     <div v-bind:key="item.name" v-for="item in $options.skills.soft_dev">
+                        <img :src="require(`@/assets/static/${item.icon}`)" alt="icon" class="technology_icon">
                         <div class="selector_item" ><button v-bind:id=item.name v-on:click="technology_select(item)">{{item.name}}</button></div>
                     </div>
                 </div>
