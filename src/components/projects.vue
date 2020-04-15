@@ -3,10 +3,11 @@
 
     <div id="card"> 
       <div id="project_box">
-        <h2 id="project_name">dog dog dog</h2>
-        <p id="project_desc" >dog dog dog dog</p>
+        <h2 id="project_name"> dog dog dog </h2>
+        <p id="project_desc" > dog dog dog dog </p>
         <a id="project_link" href="https://github.com/EternalDog/fyp">Repository link</a> <br>
-        <img alt="There should be an image here" id="project_picture" src="../assets/dog_icons/dog1.png" >
+        <img alt="There should be an image here" id="project_picture" :src="'img/' + img" > 
+        <!-- <img alt="There should be an image here" id="project_picture" :src="getImage(obj.img)" > -->
       </div>
 
       <div id="project_selectors">
@@ -31,7 +32,8 @@ export default {
     projects: project_list,
     data(){
       return {
-        current_selection: {"img": "dog1.png"}
+        current_selection: {"img": "dog1.png"},
+        img: "dog1.png",
       }
     },
     methods: { 
@@ -44,14 +46,18 @@ export default {
             document.getElementById('project_desc').innerHTML = dog.desc;
             document.getElementById('project_link').href = dog.link;
 
+            this.img = dog.img;
+
             //document.getElementById('project_picture').src = "../assets/static/" + dog.img;
 
             // document.getElementById('desc2').innerHTML = dog.desc2;
       },
       test: function() {
         console.log(projects);
+      },
+      getImage(path) {
+        return require(path)
       }
-
 
     }
 
