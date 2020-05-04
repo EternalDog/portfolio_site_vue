@@ -12,6 +12,7 @@
     "loader": "^2.1.1",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.1",
+    "vue-scrollto": "^2.18.1",
     "webpack": "^4.41.0"
   },
   "devDependencies": {

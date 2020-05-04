@@ -1,16 +1,27 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <intro class="component" />
-    <br>
-    <projects class="component" />
-    <br>
-    <skills class="component" />
-    <br>
-    <exp class="component" />
-    <br>
-    <self class="component" />
-    <br>
+
+    <div id="navbar">
+      <div class="navbar_item" v-scroll-to="{ element: '#intro', duration: 1000 }" >Intro </div>
+      <div class="navbar_item" v-scroll-to="{ element: '#projects', duration: 1000 }" >Projects </div>
+      <div class="navbar_item" v-scroll-to="{ element: '#skills', duration: 1000 }">Skills </div>
+      <div class="navbar_item" v-scroll-to="{ element: '#exp', duration: 1000 }">Experience </div>
+      <div class="navbar_item" v-scroll-to="{ element: '#self', duration: 1000 }">About Me </div>
+    </div>
+
+
+    <br><br>
+    <intro id="intro" class="component" />
+
+    <projects id="projects" class="component" />
+
+    <skills id="skills" class="component" />
+
+    <exp id="exp" class="component" />
+
+    <self id="self" class="component" />
+
 
   </div>
 </template>
@@ -22,10 +33,39 @@ import exp from './components/exp';
 import self from './components/self';
 import projects from './components/projects';
 
+var VueScrollTo = require('vue-scrollto');
+var options = {
+    container: '#container',
+    easing: 'ease-in',
+    offset: -60,
+    force: true,
+    cancelable: true,
+    onStart: function(element) {
+      // scrolling started
+    },
+    onDone: function(element) {
+      // scrolling is done
+    },
+    onCancel: function() {
+      // scrolling has been interrupted
+    },
+    x: false,
+    y: true
+}
+
+
 export default {
   name: 'app',
   components: {
     intro, projects, skills, exp, self
+  },
+  methods: {
+    goto: function(dog) {
+      //alert(dog);
+      //var element_to_scroll_to = document.getElementById(dog);
+      //element_to_scroll_to.scrollIntoView();
+      VueScrollTo.scrollTo(dog, 1000, options)
+    }
   }
 }
 </script>
@@ -37,7 +77,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
 }
 
 html, body {
@@ -62,11 +102,23 @@ html, body {
 html {
   --scrollbarBG: #CFD8DC;
   --thumbBG: #90A4AE;
+  background: lightgrey;
+  overflow: hidden;
 }
 body::-webkit-scrollbar {
   width: 11px;
 }
 body {
+  height: 100vh;
+  background: whitesmoke;
+  overflow-y: auto;
+  
+  margin: 0 auto;
+  
+  font: 100%/1.4 serif;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+
+
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
@@ -79,21 +131,6 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
-
-html {
-  background: lightgrey;
-  overflow: hidden;
-}
-body {
-  height: 100vh;
-  background: whitesmoke;
-  overflow-y: auto;
-  
-  margin: 0 auto;
-  padding: 2rem;
-  font: 100%/1.4 serif;
-  border: 1px solid rgba(0, 0, 0, 0.25)
-}
 p {
   margin: 0 0 1.5em;
 }
@@ -101,6 +138,31 @@ p {
   box-sizing: border-box;
 }
 
+// 
+
+#navbar {
+  height: 5vh;
+  width: 100%;
+  position: fixed;
+  border: 1px solid rgba(200, 0, 0, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  opacity: 0.6;
+  
+}
+
+#navbar:hover {
+  opacity: 1;
+}
+
+
+.navbar_item {
+  width: 20%;
+  color: red;
+  border: 3px solid rgba(0, 0, 0, 1);
+  font-size: 1.4em;
+}
 
 
 </style>
