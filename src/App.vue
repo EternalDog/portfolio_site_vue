@@ -149,7 +149,7 @@ p {
   flex-direction: row;
   justify-content: center;
   opacity: 0.6;
-  
+  background-color: rgb(0, 0, 0);
 }
 
 #navbar:hover {
@@ -159,10 +159,38 @@ p {
 
 .navbar_item {
   width: 20%;
-  color: red;
-  border: 3px solid rgba(0, 0, 0, 1);
+  color: white;
+  border: 3px solid rgba(0, 0, 0, 0.1);
   font-size: 1.4em;
 }
+
+.navbar_item:hover {
+  background-color: rgb(102, 2, 2);
+}
+
+//// 
+
+#intro {
+  background-image: url("./assets/static/dog.jpg");
+  background-size: cover;
+}
+
+#skills {
+  background-image: url("./assets/static/dog.jpg");
+  background-size: cover;
+}
+
+#exp {
+    background-image: url("./assets/static/prog1.jpg");
+  background-size: cover;
+}
+
+#self {
+  background-image: url("./assets/static/lewes.jpg");
+  background-size: cover;
+}
+
+
 
 
 </style>
