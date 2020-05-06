@@ -1,11 +1,13 @@
 <template>
     <div id="skills_div">
-        <p>--- skills page ---</p>
+        
+        <br>
+        <h1>Skills overwiev</h1>
 
         <div id="skills_selector_top_container">
             <div class="skill_group_selector" id="web_dev_selector"> <button v-on:click="web_dev_display"> Web Development </button>  </div>
-            <div class="skill_group_selector" id="soft_dev_selector"> <button v-on:click="soft_dev_display"> Software Development </button> </div>
-            <div class="skill_group_selector" id="dbms_selector"> <button v-on:click="dbms_display"> DBMS </button>  </div>
+            <div class="skill_group_selector" id="soft_dev_selector"> <button v-on:click="soft_dev_display"> Programming languages </button> </div>
+            <!-- <div class="skill_group_selector" id="dbms_selector"> <button v-on:click="dbms_display"> DBMS </button>  </div> -->
             <div class="skill_group_selector" id="other_selector"> <button v-on:click="other_display"> Other </button>  </div>
         </div>
         <div id="card" >
@@ -33,6 +35,7 @@
 
                 <div class="selectors" id="other_selector" v-show="show_other">
                     <div v-bind:key="item.name" v-for="item in $options.skills.other">
+                         <img :src="require(`@/assets/static/${item.icon}`)" alt="icon" class="technology_icon">
                         <div class="selector_item" ><button v-bind:id=item.name v-on:click="technology_select(item)">{{item.name}}</button></div>
                     </div>
                 </div>
@@ -104,7 +107,6 @@ export default {
             this.show_other = true;
         },
         technology_select: function (dog) {
-            console.log(dog.name);
             document.getElementById('title').innerHTML = dog.name;
             document.getElementById('desc1').innerHTML = dog.desc;
             document.getElementById('desc2').innerHTML = dog.desc2;
@@ -115,33 +117,55 @@ export default {
 
 </script>
 <style lang="scss" scoped>
+
+    h1 {
+        color: white;
+    }
+
     #skills_div {
         border-style: solid;
+    }
+
+    #skills_selector_top_container{
+        display: grid;  
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 2vh;
+    }
+
+    #skill_group_selector {
+        box-shadow: 0px 0px 5px 10px rgba(71, 0, 0, 0.5);
     }
 
     #card {
         display: flex;
         flex-direction: row;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        background-color: white;
+        opacity: 0.85;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.5);
     }
 
-    #skills_selector_top_container{
+    #card:hover {
         border-style: solid;
-        display: grid;  
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        border-color: black;
+        border-width: 0.5px;
+        box-shadow: 0px 0px 5px 15px rgba(0, 0, 0, 0.5);
     }
+
 
     #skills_selector_bottom_container {
-        border-style: solid;
-        border-color: red;
-        text-align: left;
+        text-align: center;
         width: 20vw;
+        border-radius: 5px;
     }
 
     #desc_container{
-        border-style: solid;
-        border-color: blue;
         right: 1px;
         width: 100%;
+        padding: 5%;
+        
     }
 
     .selectors {
@@ -155,9 +179,40 @@ export default {
     }
 
     .technology_icon {
-        height: 50px;
-        width: 50px;
+        height: 65px;
+        width: 65px;
     }
 
+    ///
+
+    button{
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #FFFFFF;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        text-align: center;
+        transition: all 0.2s;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    button:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+        border-style: solid;
+        border-color: black;
+        box-shadow: 0px 0px 5px 6px rgba(71, 0, 0, 0.5);
+    }
+
+    @media all and (max-width:30em){
+    button{
+        display:block;
+        margin:0.4em auto;
+        }
+    } 
 
 </style>

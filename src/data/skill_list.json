@@ -4,7 +4,7 @@
           "name":"HTML5, CSS3, JS",
           "desc":"I have pretty extensive experience going back around 7 years, the time when I first started dabbling in Web Development. I started seriously getting into it back in 2015 when I began my Web Development BSC degree",
           "exp": "9/10",
-          "desc2": "With around 6 years of experience I am pretty well versed with this technology, anything new here would be trivial to learn.",
+          "desc2": "With around 6 years of experience I am pretty well versed with this technology, anything new here would be pretty easy to learn.",
           "icon":"icons/x3.png"
        },
        {
@@ -16,16 +16,16 @@
        },
        {
           "name":"PHP",
-          "desc":"php desc",
+          "desc":"My level of PHP experience is similar to JS, I find the two languages to be pretty similar in nature. ",
           "exp": "7/10",
-          "desc2": "php desc 2",
+          "desc2": "I have worked with it as part of the LAMP/WAMP stack, and ive also used them in both Drupal and Wordpress",
           "icon":"icons/php.png"
        },
        {
           "name":"Vue.js",
-          "desc":"I have decent experience with Vue, It is my framework of choice due to its light weight nature, a nice learning curve and a ton of really fascinating functionality. You may or may not have noticed, but this site was actually built using Vue.",
+          "desc":"I have decent experience with Vue, It is my framework of choice due to its light weight nature, a nice learning curve and a ton of really fascinating functionality. You may or may not have noticed, but this site was built using Vue.",
           "exp": "7/10",
-          "desc2": "I would describe my experience with vue to be about intermediate, i have created multiple websites with it and im proficient enough with it to get things done.",
+          "desc2": "I would describe my experience with vue to be about intermediate, I have created multiple websites with it and im proficient enough with it to get things done.",
           "icon":"icons/vue.png"
        },
        {
@@ -37,7 +37,7 @@
        },
        {
           "name":"D3",
-          "desc":"D3 is an incredibly powerful library for JavaScript while also having a relatively straightforward learning curve. It was actually a big part of my thesis project, I used it to create a strategy game similar to the boardgame risk.",
+          "desc":"D3 is an incredibly powerful library for JavaScript while also having a relatively straightforward learning curve. It was actually a big part of my thesis project, I used it for my web based multiplayer game that ive made.",
           "exp": "7/10",
           "desc2": "I am proficient with D3, its a pretty straightforward piece of technology.",
           "icon":"icons/d3.png"
@@ -62,7 +62,7 @@
           "name":"Python",
           "desc":"Ive used Python for about two years for tasks such as security testing, back end development and big data management technologies like Spark",
           "exp": "6/10",
-          "desc2": "I have not used Python as much as I have the previous two, however compared to them, I find Python to be rather easy and I would like to learn it more.",
+          "desc2": "I have not used Python as much as I have the previous two languages, however compared to them, I find Python to be rather easy and I would like to learn it more.",
           "icon":"icons/snek.png"
        },
        {
@@ -80,16 +80,42 @@
          "icon":"icons/db.png"
       }
     ],
-    "dbms":[
-
-    ],
+    "dbms":[],
     "other":[
-       {
-          "name":"other item",
-          "desc":"other item desc here",
-          "exp": "7/10",
-          "desc2": "",
-          "icon":""
-       }
+      {
+         "name":"Hardware",
+         "desc":"I have a very extensive level of knowledge when it comes to computer hardware, ive been interested in computers as long as I can remember, and I can assemble and disassemble computers with ease.",
+         "exp": "",
+         "desc2": "This allows me to personally do tasks such as diagnosis, repair and upgrades. The PC I currently use is something ive built myself.",
+         "icon":"icons/devman.jpeg"
+      },
+      {
+         "name":"Photoshop",
+         "desc":"I am pretty competent with photoshop and general picture editing, its something ive been doing as a hobby for about a decade now.",
+         "exp": "",
+         "desc2": "The few pictures you can see on this site have all been taken and edited by me.",
+         "icon":"icons/ps.png"
+      },
+      {
+         "name":"linux",
+         "desc":"Ive been using various linux distros for a few years, this includes primarily Ubuntu which I currently have installed on my laptop and pc in dual boot as well as Linux Mint and Arch Linux.",
+         "exp": "",
+         "desc2": "This has also given me a pretty good knowledge of bash, writing various scripts or even just commands, which are an integral part of linux usage.",
+         "icon":"icons/linux.png"
+      },
+      {
+         "name":"Cloud hosting",
+         "desc":"I have a bit of experience with cloud hosting, primarily using Heroku, a platform ive used to host my application Dice Doge.",
+         "exp": "",
+         "desc2": "Ive also touched other platforms such as Google cloud, and im currently learning a bit about AWS.",
+         "icon":"icons/heroku.png"
+      },
+      {
+         "name":"Premiere",
+         "desc":"other item desc here",
+         "exp": "",
+         "desc2": "",
+         "icon":"icons/premiere.png"
+      }
     ]
  }

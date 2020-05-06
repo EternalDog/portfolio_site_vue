@@ -10,18 +10,12 @@
       <div class="navbar_item" v-scroll-to="{ element: '#self', duration: 1000 }">About Me </div>
     </div>
 
-
     <br><br>
     <intro id="intro" class="component" />
-
     <projects id="projects" class="component" />
-
     <skills id="skills" class="component" />
-
     <exp id="exp" class="component" />
-
     <self id="self" class="component" />
-
 
   </div>
 </template>
@@ -91,9 +85,8 @@ html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
-
   border-style: solid;
-  border-color: red;
+  border-width: 0.5px;
   
 }
 
@@ -102,7 +95,7 @@ html, body {
 html {
   --scrollbarBG: #CFD8DC;
   --thumbBG: #90A4AE;
-  background: lightgrey;
+  background: rgb(0, 0, 0);
   overflow: hidden;
 }
 body::-webkit-scrollbar {
@@ -144,12 +137,13 @@ p {
   height: 5vh;
   width: 100%;
   position: fixed;
-  border: 1px solid rgba(200, 0, 0, 1);
+
   display: flex;
   flex-direction: row;
   justify-content: center;
-  opacity: 0.6;
+  opacity: 0.8;
   background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
 #navbar:hover {
@@ -175,13 +169,18 @@ p {
   background-size: cover;
 }
 
+#projects {
+  background-image: url("./assets/static/shib.jpg");
+  background-size: cover;
+}
+
 #skills {
-  background-image: url("./assets/static/dog.jpg");
+  background-image: url("./assets/static/prog1.jpg");
   background-size: cover;
 }
 
 #exp {
-    background-image: url("./assets/static/prog1.jpg");
+  background-image: url("./assets/static/ski.jpg");
   background-size: cover;
 }
 

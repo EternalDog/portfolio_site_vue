@@ -24,10 +24,6 @@ export default {
     name: "exp",
     exp: exp_data,
     methods: {
-        dog: function () {
-            console.log(this.exp);
-        }
-
     }
 }
 

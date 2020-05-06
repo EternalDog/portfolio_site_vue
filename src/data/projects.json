@@ -2,22 +2,22 @@
     {
         "name": "Britannia",
         "link": "https://github.com/EternalDog/fyp",
-        "desc": "brit desc long",
+        "desc": "The aim I have for this project is to make a web based game. Browser games have been highly popular pretty much since the beginning of the internet, and since then, the power of computers has increased drastically. With the increase of power of PCs, programming technology has also improved signiffcantly and we now have far more tools to work with for pretty much anything. I would like to use the numerous different technologies, to create some sort of a web based strategy game, such as JS, HTML5 and CSS as well as others like Node, probably like two dozen different APIs, libraries and packages and also things MySQL/SQLite and possibly C++. I would like to include features like multiplayer, database support and some proper level of complexity to the game, it would be nice to make a program that I could be proud of and that others could enjoy.",
         "desc_short": "A web based multiplayer strategy game",
         "img": "dog1.png"
     },
     {
         "name": "Portfolio site",
-        "link": "nay",
-        "desc": "",
-        "desc_short": "",
+        "link": "https://github.com/EternalDog/portfolio_site_vue",
+        "desc": "I decided to make a personal website for myself for a few purposes, first to let people know a bit more than what my CV says about me, be it ptential clients or employers. second as a way to show off my skills, primarily the ability to use a modern front end framework to create a functional single page application, and third, to allow people interested in my freelance services to contact me.",
+        "desc_short": "A website about myself made using the Vue.js framework",
         "img": "dog2.png"
     },
     {
-        "name": "proj3",
-        "link": "",
+        "name": "Dice Doge",
+        "link": "https://github.com/EternalDog/Dice-doge",
         "desc": "",
-        "desc_short": "",
+        "desc_short": "A dice rolling bot for discord",
         "img": "dog3.png"
     }
 ]
