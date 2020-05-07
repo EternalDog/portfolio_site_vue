@@ -4,8 +4,18 @@
 
     <img alt="There should be a logo here" id="logo" src="../assets/dog_icons/placeholder_logo.jpg">
 
-    <h2>Dominik</h2>
-    <h3>Software Developer | Amateur Historian | Volunteer </h3>
+
+
+    <div id="intro_text">
+      
+      <h1>Dominik</h1>
+      <h2>Software Developer | Amateur Historian | Volunteer </h2>
+
+      <br><br><br>
+      <h3>THIS SITE IS CURRENTLY WORK IN PROGESS</h3>
+      <p>As such, there will be a few placeholder strings/images and the styling isnt finalised.</p>
+      <br><br>
+    </div>
 
   </div>
 </template>
@@ -39,8 +49,16 @@ export default {
     border-style: solid;
   }
 
-  h2, h3 {
+  #intro_text {
+    color: white;
+    background-color: rgba($color: #220000, $alpha: 0.2);  
+  }
 
+
+
+
+  #intro_text {
+    margin: 0px 15vw 0px 15vw;
   }
   
   #card {

@@ -42,10 +42,10 @@
             </div>
             
             <div id="desc_container">
-                <h2 id="title"> pies pies pies </h2>
+                <h2 id="title"> Select a skill category on top, or a specific technology from the left. </h2>
                 <div id="text_card">
-                    <p id="desc1"> dog1 </p>
-                    <p id="desc2"> dog2 </p>
+                    <p id="desc1">  </p>
+                    <p id="desc2">  </p>
                 </div>
             </div>
 

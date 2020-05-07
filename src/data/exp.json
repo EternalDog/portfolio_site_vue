@@ -10,7 +10,7 @@
         {
             "name": "Software Engineer",
             "location": "McAfee Cork",
-            "desc": "I worked at McAFee as a Software Engineer, on a team called 'Endpoint performance' and most of my work was relevant to QA testing new versions of the Anti Virus software on windows machines.",
+            "desc": "I worked at McAFee as a Software Engineer, on a team called 'Endpoint performance' and most of my work was relevant to QA testing new versions of the Anti Virus software on windows machines. My primary responsibility involved testing automation, I created and deployed images for testing and set up testing servers. I Developed a JavaScript application that enabled the automated configuration of testing images through the use JSON config files detailing information about the desired software stack as well as client details associated with the testing environment.",
             "start_date": "01/2018",
             "end_date": "09/2018",
             "duration": "9 months"
@@ -18,8 +18,8 @@
         {
             "name": "Freelance Web Development",
             "location": "Cork, Ireland",
-            "desc": "After finishing all my university work, I began doing some light freelance web development work, mostly for the purpose of ",
-            "start_date": "06/2019",
+            "desc": "After finishing my degree, I began doing some light freelance web development work, mostly for the purpose of gaining a bit more experience while I decide what to do with my life.",
+            "start_date": "11/2019",
             "end_date": "10/2018",
             "duration": "4 months"
         }

@@ -1,12 +1,12 @@
 <template>
     <div id="exp_div">
-        exp div
 
-        <p v-on:click="dog()">dog dog dog</p>
+        <h1>Experience and Education</h1>
+        <br>
 
         <ul>
             <li v-bind:key="item.name" v-for="item in $options.exp">
-                <p id="exp_name">Title: {{item.name}}</p>
+                <h3 id="exp_name">Title: {{item.name}}</h3>
                 <span id="exp_date">Duration: {{item.start_date}} to {{item.end_date}} </span>
                 <p id="exp_location">Location: {{item.location}}</p>
                 <p id="exp_desc">{{item.desc}}</p>
@@ -33,5 +33,15 @@ export default {
 <style lang="scss" scoped>
     #exp_div {
         border-style: solid;
+    }
+
+    h1 {      
+        color: white;
+    }
+
+    ul {
+        margin: 0px 20vw 0px 20vw;
+        color: white;
+        list-style-type:none;
     }
 </style>

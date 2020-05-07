@@ -3,9 +3,9 @@
       <H1>Projects</H1>
       <div id="card"> 
         <div id="project_box">
-          <h2 id="project_name"> dog dog dog </h2>
-          <p id="project_desc" > dog dog dog dog </p>
-          <a id="project_link" href="https://github.com/EternalDog/fyp">Repository link</a> <br>
+          <h2 id="project_name"> Select a project on the right. </h2>
+          <p id="project_desc" > </p>
+          <a id="project_link" href="https://github.com/EternalDog/fyp"></a> <br>
           <img alt="There should be an image here" id="project_picture" :src="'img/' + img" > 
         </div>
 
@@ -39,6 +39,7 @@ export default {
         document.getElementById('project_name').innerHTML = dog.name;
         document.getElementById('project_desc').innerHTML = dog.desc;
         document.getElementById('project_link').href = dog.link;
+        document.getElementById('project_link').innerHTML = "Repository link";
         this.img = dog.img;
       }
     }
@@ -48,6 +49,10 @@ export default {
 <style lang="scss" scoped>
   #projects_div {
     border-style: solid;
+  }
+
+  h1 {
+    color: white;
   }
   
  #card {
