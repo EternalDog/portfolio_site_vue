@@ -4,6 +4,7 @@
       <div id="card"> 
         <div id="project_box">
           <h2 id="project_name"> Select a project on the right. </h2>
+          <h4 id="project_stack" > </h4>
           <p id="project_desc" > </p>
           <a id="project_link" href="https://github.com/EternalDog/fyp"></a> <br>
           <img alt="There should be an image here" id="project_picture" :src="'img/' + img" > 
@@ -14,7 +15,7 @@
             <div class="projects_list_item" v-bind:id=projects.name v-on:click="project_select(projects)" >
               <p>{{projects.name}}</p>
               <p>{{projects.desc_short}}</p>
-              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -37,6 +38,7 @@ export default {
       project_select: function (dog) {    
         this.current_selection = dog;
         document.getElementById('project_name').innerHTML = dog.name;
+        document.getElementById('project_stack').innerHTML = "Technology stack: " + dog.stack;
         document.getElementById('project_desc').innerHTML = dog.desc;
         document.getElementById('project_link').href = dog.link;
         document.getElementById('project_link').innerHTML = "Repository link";
@@ -59,7 +61,7 @@ export default {
     display: flex;
     flex-direction: row;
     opacity: 0.85;
-    border-radius: 10px;
+    border-radius: 1px;
     margin-right: 5vw;
     margin-left: 7vw;
   }
@@ -71,20 +73,19 @@ export default {
   }
 
   #project_box {
-    // border-style: solid;
-    // border-color: black;
-    // border-width: 0.5px;
-    border-radius: 5px;
+    border-radius: 1px;
     box-shadow: 0px 0px 5px 3px rgba(56, 0, 0, 0.5);
     width: 60%;
+    height: 100%;
     padding: 40px;
     background-color: white;
-  }
-
-  #project_box:hover {
     border-style: solid;
     border-color: black;
     border-width: 0.5px;
+  }
+
+  #project_box:hover {
+    border-width: 1px;
     box-shadow: 0px 0px 5px 9px rgba(56, 0, 0, 0.5);
   }
 
@@ -101,7 +102,7 @@ export default {
     padding-top: 15px;
     margin-left: 5px;
     margin-bottom: 5px;
-    border-radius: 10px;
+    border-radius: 1px;
     background-color:black;
     width: 85%;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
@@ -114,10 +115,13 @@ export default {
     box-shadow: 0px 0px 5px 9px rgba(56, 0, 0, 0.5);
   }
 
-
   .projects_list_item:hover { 
     color: rgb(102, 2, 2);
     background-color: white;
   }
 
+  #project_picture {
+    width: 70%;
+    height: 70%;
+  }
 </style>

@@ -1,10 +1,6 @@
 <template>
   <div id="intro_div">
-    <p>--- intro page ---</p>
-
     <img alt="There should be a logo here" id="logo" src="../assets/dog_icons/placeholder_logo.jpg">
-
-
 
     <div id="intro_text">
       

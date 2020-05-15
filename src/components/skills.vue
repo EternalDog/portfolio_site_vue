@@ -143,7 +143,7 @@ export default {
         margin-right: 5vw;
         background-color: white;
         opacity: 0.85;
-        border-radius: 10px;
+        border-radius: 1px;
         box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.5);
     }
 
@@ -158,7 +158,7 @@ export default {
     #skills_selector_bottom_container {
         text-align: center;
         width: 20vw;
-        border-radius: 5px;
+        border-radius: 1px;
     }
 
     #desc_container{
