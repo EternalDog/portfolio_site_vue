@@ -1,15 +1,15 @@
 <template>
   <div id="intro_div">
-    <img alt="There should be a logo here" id="logo" src="../assets/dog_icons/placeholder_logo.jpg">
+    <img alt="There should be a logo here" id="logo" src="../assets/static/normannis_regional.jpg">
 
     <div id="intro_text">
       
       <h1>Dominik</h1>
       <h2>Software Developer | Amateur Historian | Volunteer </h2>
 
-      <br><br><br>
-      <h3>THIS SITE IS CURRENTLY WORK IN PROGESS</h3>
-      <p>As such, there will be a few placeholder strings/images and the styling isnt finalised.</p>
+      <br>
+      <!-- <h3>THIS SITE IS CURRENTLY WORK IN PROGESS</h3> -->
+      <p>I am a Polish Programmer and Web Developer who recently came from Ireland to England. \n Last year I have finished a degree (BSc Web Development) in the Cork Institute of Technology. \n The year before that I have also worked as an intern software engineer at McAfee, which I found to be a pretty positive experience. \n I am pretty passionate about programming and IT in general, and my current goal in life is to continue expanding my existing skills.</p>
       <br><br>
     </div>
 
@@ -50,7 +50,11 @@ export default {
     background-color: rgba($color: #220000, $alpha: 0.2);  
   }
 
-
+  #logo {
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+  }
 
 
   #intro_text {

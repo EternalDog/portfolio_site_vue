@@ -41,11 +41,15 @@ export default {
     }
 
     ul {
-        list-style-type:none;
+        list-style-type: square;
+        text-align: left;
     }
 
     #text {
         margin: 0px 15vw 0px 15vw;
-        
+        color: black;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 15px;
+        border-radius: 5px;
     }
 </style>

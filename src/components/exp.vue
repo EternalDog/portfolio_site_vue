@@ -43,5 +43,11 @@ export default {
         margin: 0px 20vw 0px 20vw;
         color: white;
         list-style-type:none;
+
     }
+    li {
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 5px 15px 5px 15px;
+    }
+
 </style>

@@ -13,7 +13,7 @@
         "link": "https://github.com/EternalDog/portfolio_site_vue",
         "desc": "I decided to make a personal website for myself for a few purposes, first to let people know a bit more than what my CV says about me, be it ptential clients or employers. second as a way to show off my skills, primarily the ability to use a modern front end framework to create a functional single page application, and third, to allow people interested in my freelance services to contact me.",
         "desc_short": "A website about myself made using the Vue.js framework",
-        "img": "dog2.png",
+        "img": "",
         "stack" : "Vue.js, SCSS, JavaScript, HTML5, Photoshop, NPM"
     },
     {

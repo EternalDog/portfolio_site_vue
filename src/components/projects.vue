@@ -6,8 +6,8 @@
           <h2 id="project_name"> Select a project on the right. </h2>
           <h4 id="project_stack" > </h4>
           <p id="project_desc" > </p>
-          <a id="project_link" href="https://github.com/EternalDog/fyp"></a> <br>
-          <img alt="There should be an image here" id="project_picture" :src="'img/' + img" > 
+          <a id="project_link" href="https://github.com/EternalDog/fyp"></a> <br> <br>
+          <img alt=" " id="project_picture" :src="'img/' + img" > 
         </div>
 
         <div id="project_selectors">
@@ -31,7 +31,7 @@ export default {
     data(){
       return {
         current_selection: {"img": "dog1.png"},
-        img: "dog1.png",
+        img: " ",
       }
     },
     methods: { 
