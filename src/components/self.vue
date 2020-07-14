@@ -18,7 +18,8 @@
                 <li>I am something of a serious history enthusiast, I also take part in organised historical reenactment as part of the group “Historia Normannis”. </li>
                 <li>I took part in various charity events for animal rights, such as taking part in a few protests against dog cruelty in Cork. </li>
                 <li>I volunteered for the 2019 CIT Open Data Hackathon, a 12 hour programming event. </li>
-                <li>I am pretty passionate about dogs. </li>
+                <li>I am pretty passionate about dogs. Cats are alright. </li>
+                <li>I occasionally engage in photography, and once every 50 or so photos I actually manage to take a good one. All the photos on this site are mine. </li>
                 <li>I enjoy cycling. I also do some more uncommon sports such as hiking or skiing. </li>
                 <li>I am an avid reader of fiction, fantasy and history books. My favourite author would probably Terry Pratchett. </li>
                 <li>Model Building is another hobby of mine, I like it because it’s something that lets me use my more artistic and creative side. </li>

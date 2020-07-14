@@ -170,7 +170,7 @@ p {
 }
 
 #projects {
-  background-image: url("./assets/static/shib.jpg");
+  background-image: url("./assets/static/snow.jpeg");
   background-size: cover;
 }
 
