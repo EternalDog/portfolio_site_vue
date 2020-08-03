@@ -9,11 +9,13 @@
 
       <br>
       <!-- <h3>THIS SITE IS CURRENTLY WORK IN PROGESS</h3> -->
-      <p>I am a Polish Programmer and Web Developer who recently came from Ireland to England. <br>
-       Last year I have finished a degree (BSc Web Development) in the Cork Institute of Technology.  <br>
-       The year before that I have also worked as an intern software engineer at McAfee, which I found to be a pretty positive experience. <br>
-       I am pretty passionate about programming and IT in general, and my current goal in life is to continue expanding my existing skills. <br>
-       My skills in programming primarily revolve around various JavaScript technologies as well as Java, Python, PHP and others. </p>
+      <p>I am a Polish programmer and web developer who recently came from Ireland to the UK. <br>
+       I currently work as an independent contractor and freelance developer, ive worked on two major contracts this year. I also do smaller freelance work on the side. <br>
+       I studied at the Cork Institute of Technology and got the BSc degree in Web Development. <br>
+       In the past I worked at McAfee as a Software Engineer on the Endpoint Preformance team which I found to be a pretty positive experience and a start to my career. <br>
+       I am pretty passionate about programming and IT, I enjoy the inherent challenge of developing software and scripting. <br>
+       I am looking to continue working with my existing skillset, and im open to more contract based work or permanent employment. 
+       </p>
       <br><br>
 
       <a :href="`${publicPath}CV.pdf`" download="Dominik's CV" class="tooltip">

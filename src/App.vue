@@ -3,6 +3,11 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 
     <div id="navbar">
+      <!-- <div class="free_space"></div>
+      <div class="free_space"></div>
+      <div class="free_space"></div>
+      <div class="free_space"></div>
+      <div class="free_space"></div> -->
       <div class="navbar_item" v-scroll-to="{ element: '#intro', duration: 1000 }" >Intro </div>
       <div class="navbar_item" v-scroll-to="{ element: '#projects', duration: 1000 }" >Projects </div>
       <div class="navbar_item" v-scroll-to="{ element: '#skills', duration: 1000 }">Skills </div>
@@ -150,9 +155,12 @@ p {
   opacity: 1;
 }
 
+.free_space {
+    width: 10%;
+}
 
 .navbar_item {
-  width: 20%;
+  width: 10%;
   color: white;
   border: 3px solid rgba(0, 0, 0, 0.1);
   font-size: 1.4em;
