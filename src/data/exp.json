@@ -3,8 +3,8 @@
             "name": "Web Development Bachelors degree",
             "location": "Cork Institute of Technology",
             "desc": "I did a 4 year degree in web development, as part of this course I learned how to use the various Web Development technologies, both front end and back end, as well as a bit of programming and database management.",
-            "start_date": "09/2015",
-            "end_date": "06/2015",
+            "start_date": "2015",
+            "end_date": "2019",
             "duration": "4 years"
         },
         {
@@ -18,9 +18,9 @@
         {
             "name": "Freelance Software Development",
             "location": "UK",
-            "desc": "After finishing my degree, I began doing some freelance software development work, mostly for the purpose of gaining a bit more experience while I decide what to do with my life, as well as allowing me to settle in after moving to the UK. \\n I have completed a few projects, most interesting of which was some contract work that I did for a small healthcare company, I added some functionality (primarily involving sending and retrieving their massive MariaDB database, as well adding map-reduce functionality) to their prorpietary software that ran on Laravel as well as doing a series of bug fixing maintenance. Ive also done a few smaller projects such as setting up a basic Wordpress blog",
+            "desc": "My first major contract was in early 2020, I implemented a series of features primarily related to datamanagement into an application for managing clinics on a platform made up of JS, a proprietary PHPframework as well as doing various tasks with a MariaDB database handling various sensitive data. My second major contract was during summer, I worked on finishing a web application for warehousemanagement, on a platform made from vanilla PHP, Bootstrap, Jquery as well as a MySQL database. Mycontribution was primarily working with various methods of data management and interacting with RESTfulAPIs. I've also worked on a few smaller freelance project, most notably a Python application using Spark forparsing data efficiently, a RESTful API in Node.js and a custom Java application for sending and retrievingfiles from a server through sockets, as well as some other minor projects.",
             "start_date": "12/2019",
-            "end_date": "10/2018",
+            "end_date": "(ongoing)",
             "duration": "4 months"
         }
     ]
